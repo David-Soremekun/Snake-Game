@@ -152,18 +152,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Breathe.cpp" />
-    <ClCompile Include="Food.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SnakeHead.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Breathe.h" />
-    <ClInclude Include="Direction.h" />
-    <ClInclude Include="Food.h" />
     <ClInclude Include="Game.h" />
-    <ClInclude Include="SnakeHead.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
