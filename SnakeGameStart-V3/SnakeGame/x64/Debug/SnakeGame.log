@@ -1,0 +1,3 @@
+﻿  Snake.cpp
+C:\Users\Laptop\Desktop\Project\Snake-Game\SnakeGameStart-V3\SnakeGame\Snake.cpp(5,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  SnakeGame.vcxproj -> C:\Users\Laptop\Desktop\Project\Snake-Game\SnakeGameStart-V3\x64\Debug\SnakeGame.exe
