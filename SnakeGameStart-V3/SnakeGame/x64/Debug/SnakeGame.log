@@ -1,4 +1,0 @@
-﻿  Game.cpp
-C:\Users\b1053474\Source\SnakeGameStart-V3\SnakeGame\Game.cpp(63,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\b1053474\Source\SnakeGameStart-V3\SnakeGame\Game.cpp(64,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  SnakeGame.vcxproj -> C:\Users\b1053474\Source\SnakeGameStart-V3\x64\Debug\SnakeGame.exe
