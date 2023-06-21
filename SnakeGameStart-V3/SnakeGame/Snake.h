@@ -37,6 +37,7 @@ public:
 
 	const int GetLive() const { return m_lives; }
 	const int GetScore() const { return m_score; }
+	const sf::Vector2f GetPosition() const;
 	const bool HasLost() const { return m_lost; }
 	
 	void IncrementScore() { m_score += 10; }

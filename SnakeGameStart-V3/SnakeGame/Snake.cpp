@@ -10,10 +10,7 @@ Snake::Snake(int sizeOfSnake)
 	ResetSnake();
 }
 
-Snake::~Snake()
-{
-	
-}
+Snake::~Snake() {}
 
 void Snake::CheckCollision()
 {
@@ -27,6 +24,14 @@ void Snake::CheckCollision()
 			break;
 		}
 	}
+}
+
+
+
+const sf::Vector2f Snake::GetPosition() const
+{
+	return sf::Vector2f(!m_segmentVector.empty() ? 
+		m_segmentVector.front().position : sf::Vector2f(1, 1));
 }
 
 void Snake::CutSnake(int segmentNum)
