@@ -2,12 +2,20 @@
 #include <list>
 #include <SFML/Graphics.hpp>
 #include "Direction.h"
+#include <vector>
+struct SnakeSegment {
+	SnakeSegment(float x, float y) : position(x, y) {}
+	sf::Vector2f position;
+};
+
+using SnakeContainer = std::vector<SnakeSegment>;
+
 class Snake
 {
 private:
 	sf::CircleShape m_snakeBodyShape;
 	//std::list<sf::Vector2f> m_snakeSegments;
-	std::vector<int,int> m_segmentVector;
+	SnakeContainer m_segmentVector;
 	Direction m_dir;
 	bool m_lost;
 
@@ -33,9 +41,11 @@ public:
 	
 	void IncrementScore() { m_score += 10; }
 
+	void CutSnake(int segmentNum);
 	void ExtendSnake();
 	void ResetSnake();
-
+	void Lose() { m_lost = true; }
+	void ToggleLose() { m_lost = !m_lost; }
 	void Move();
 	void Tick();
 	void Render(sf::RenderWindow& m_window);
