@@ -28,7 +28,7 @@ private:
 	void CheckCollision();
 
 public:
-	Snake(int sizeOfSnake);
+	Snake(const int sizeOfSnake);
 	~Snake();
 	
 	void SetDirection(Direction dir) { m_dir = dir; }

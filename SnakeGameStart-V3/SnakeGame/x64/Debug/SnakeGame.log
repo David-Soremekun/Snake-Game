@@ -1,3 +1,32 @@
-﻿  Snake.cpp
-C:\Users\Laptop\Desktop\Project\Snake-Game\SnakeGameStart-V3\SnakeGame\Snake.cpp(5,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  SnakeGame.vcxproj -> C:\Users\Laptop\Desktop\Project\Snake-Game\SnakeGameStart-V3\x64\Debug\SnakeGame.exe
+﻿  Game.cpp
+C:\Users\Laptop\Desktop\Project\Snake-Game\SnakeGameStart-V3\SnakeGame\Game.cpp(9,1): error C2530: 'Game::m_snake': references must be initialized
+  World.cpp
+C:\Users\Laptop\Desktop\Project\Snake-Game\SnakeGameStart-V3\SnakeGame\World.cpp(18,5): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Laptop\Desktop\Project\Snake-Game\SnakeGameStart-V3\SnakeGame\World.cpp(17,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Laptop\Desktop\Project\Snake-Game\SnakeGameStart-V3\SnakeGame\World.cpp(22,17): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Laptop\Desktop\Project\Snake-Game\SnakeGameStart-V3\SnakeGame\World.cpp(21,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...

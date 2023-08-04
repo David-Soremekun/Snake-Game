@@ -2,7 +2,7 @@
 
 
 
-Snake::Snake(int sizeOfSnake)
+Snake::Snake(const int sizeOfSnake)
 {
 	m_size = sizeOfSnake;
 	m_snakeBodyShape.setRadius(m_size - 1);

@@ -9,7 +9,7 @@ Game::Game()
 {
 	m_window.create(sf::VideoMode(m_screenWidth, m_screenHeight), "SFML Snake Game");
 	m_world = new World(sf::Vector2u(m_screenWidth, m_screenHeight));
-	m_snake (m_world->GetBlockSize());
+	m_snake = (m_world->GetBlockSize());
 }
 
 void Game::Update()
