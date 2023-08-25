@@ -14,8 +14,8 @@
 
 int main()
 {
-   
-
+    Game *newGame = new Game();
+    newGame->Update();
     std::cout << "SnakeGame: Finished" << std::endl;
 
     return 0;
